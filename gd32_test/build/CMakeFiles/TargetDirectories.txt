@@ -1,0 +1,4 @@
+/home/wuster/projects/C/gd32_test/build/CMakeFiles/firmware.dir
+/home/wuster/projects/C/gd32_test/build/CMakeFiles/flash.dir
+/home/wuster/projects/C/gd32_test/build/CMakeFiles/edit_cache.dir
+/home/wuster/projects/C/gd32_test/build/CMakeFiles/rebuild_cache.dir

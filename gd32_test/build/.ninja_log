@@ -1,0 +1,15 @@
+# ninja log v7
+1	36	1782671032332327576	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj	f29914722893b517
+2	37	1782671032333327473	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj	ec1fc627033990a6
+2	102	1782671032335138645	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj	480c016bf84e8c97
+5	106	1782671032337499944	CMakeFiles/firmware.dir/src/main.cpp.obj	c498dc5601b00d42
+4	129	1782671032337074040	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj	fdf21d53c40c3f43
+2	132	1782671032334935969	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj	6cbbcc4a5e35ae26
+3	137	1782671032335761435	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj	abd19a8bdfb6d7a
+5	138	1782671032337888552	CMakeFiles/firmware.dir/src/Led.cpp.obj	fb3b36505bf02274
+3	145	1782671032335994899	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj	e525a541c2707aa6
+3	154	1782671032335464620	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj	ea1aa9154c2c39c
+4	159	1782671032336542816	CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj	ad4091c71c7f2148
+160	189	1782671032491311160	firmware	21d5769192921f4f
+3	748	1782671219956213734	CMakeFiles/flash	3c160aa72e773f1e
+3	748	1782671219956213734	/home/wuster/projects/C/gd32_test/build/CMakeFiles/flash	3c160aa72e773f1e
