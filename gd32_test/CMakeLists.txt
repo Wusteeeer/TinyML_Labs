@@ -43,7 +43,9 @@ set(DRIVERS
 
   ${SDK}/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c
   ${SDK}/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c
+  ${SDK}/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c
   ${SDK}/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c
+  ${SDK}/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c
 )
 
 set(STARTUP 
@@ -60,7 +62,11 @@ add_executable(firmware
   ${DRIVERS}
 
   src/main.cpp 
-  src/Led.cpp 
+  src/Led.cpp
+  src/Point.cpp
+  src/pwm.c
+  src/lcd.c
+  src/systick.c
 )
 
 target_compile_definitions(firmware PRIVATE 

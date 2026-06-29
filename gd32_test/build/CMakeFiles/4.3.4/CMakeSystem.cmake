@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "7.0.12-arch1-1")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/wuster/projects/C/gd32_test/toolchain.cmake")
+include("/home/wuster/projects/python/TinyML_Labs/gd32_test/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

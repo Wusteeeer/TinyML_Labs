@@ -1,6 +1,4 @@
-Toolchain written for GD32VF103Cx8 custom KTH MCU for work in C++ that allows flashing via USB dfu.
-
-Commands for building + flashing (linux):
+Toolchain written for GD32VF103Cx8 custom KTH MCU board for programming in C++ and USB dfu flashing. 
 
 **Clean**
 rm -rf build
@@ -10,7 +8,6 @@ cmake -B build -G Ninja -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake
 
 cmake --build build
 
-
-**Flash (make sure mcu is in boot mode)**
+**Flash**
 
 cmake --build build --target flash

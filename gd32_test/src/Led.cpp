@@ -7,6 +7,7 @@ extern "C"{
 #include "Led.hpp"
 #include "Board.hpp"
 
+
 void Led::init(){
   rcu_periph_clock_enable(RCU_GPIOB);
 
@@ -15,10 +16,12 @@ void Led::init(){
 
 void Led::on(){
   gpio_bit_set(LED_PORT, LED_PIN);
+  this->ledOn = true;
 }
 
 void Led::off(){
   gpio_bit_reset(LED_PORT, LED_PIN);
+  this->ledOn = false;
 }
 
 void Led::toggle(){
