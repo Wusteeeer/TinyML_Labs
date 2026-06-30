@@ -4,6 +4,7 @@ extern "C"{
 #include "lcd.h"
 #include "../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include/gd32vf103_timer.h"
 #include "systick.h"
+#include "subrout.h"
 }
 
 #include <math.h>
@@ -26,13 +27,13 @@ float map(float x, float x1, float x2, float y1,  float y2)
 int main(){
   //Led led;
   //led.init();
+
+  t5omsi();
   
   Point points[170];
   int number_of_points = 0;
   int currentPoint = 0;
   int clearPos = 0;
-
-  int counter = 0;
   float x = 0;
 
 
@@ -42,9 +43,8 @@ int main(){
 
   while(true){
     LCD_WR_Queue();
-    counter++;
 
-    if(counter == DELAY){
+    if(t5expq()){
 
       
       if(number_of_points < LCD_SIZE_X){
@@ -70,7 +70,6 @@ int main(){
         }
       }
 
-      counter = 0;
       x += 0.1f;
       if(x >= 2.0*M_PI){
         x = 0;

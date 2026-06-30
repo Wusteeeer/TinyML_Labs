@@ -67,6 +67,7 @@ add_executable(firmware
   src/pwm.c
   src/lcd.c
   src/systick.c
+  src/subrout.S
 )
 
 target_compile_definitions(firmware PRIVATE 
