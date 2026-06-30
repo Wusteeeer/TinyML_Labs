@@ -44,123 +44,123 @@ cmake_ninja_workdir = /home/wuster/projects/python/TinyML_Labs/gd32_test/build/
 
 build cmake_object_order_depends_target_firmware: phony || .
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj: ASM_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj: ASM_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj.d
   FLAGS = -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj: ASM_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj: ASM_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj.d
   FLAGS = -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
 
-build CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c || cmake_object_order_depends_target_firmware
+build CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c.obj: C_COMPILER__firmware_unscanned_ /home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c || cmake_object_order_depends_target_firmware
   DEFINES = -DGD32VF103
-  DEP_FILE = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c.obj.d
+  DEP_FILE = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
-  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
+  OBJECT_FILE_DIR = CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
   TARGET_PDB = firmware.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/firmware.dir
@@ -169,7 +169,7 @@ build CMakeFiles/firmware.dir/src/main.cpp.obj: CXX_COMPILER__firmware_unscanned
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/main.cpp.obj.d
   FLAGS = -std=gnu++20 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -180,7 +180,7 @@ build CMakeFiles/firmware.dir/src/Led.cpp.obj: CXX_COMPILER__firmware_unscanned_
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/Led.cpp.obj.d
   FLAGS = -std=gnu++20 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -191,7 +191,7 @@ build CMakeFiles/firmware.dir/src/Point.cpp.obj: CXX_COMPILER__firmware_unscanne
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/Point.cpp.obj.d
   FLAGS = -std=gnu++20 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -202,7 +202,7 @@ build CMakeFiles/firmware.dir/src/pwm.c.obj: C_COMPILER__firmware_unscanned_ /ho
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/pwm.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -213,7 +213,7 @@ build CMakeFiles/firmware.dir/src/lcd.c.obj: C_COMPILER__firmware_unscanned_ /ho
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/lcd.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -224,7 +224,7 @@ build CMakeFiles/firmware.dir/src/systick.c.obj: C_COMPILER__firmware_unscanned_
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/systick.c.obj.d
   FLAGS = -std=gnu11 -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -235,7 +235,7 @@ build CMakeFiles/firmware.dir/src/subrout.S.obj: ASM_COMPILER__firmware_unscanne
   DEFINES = -DGD32VF103
   DEP_FILE = CMakeFiles/firmware.dir/src/subrout.S.obj.d
   FLAGS = -march=rv32imac_zicsr_zifencei -mabi=ilp32 -Wall -Wextra -ffunction-sections -fdata-sections
-  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
+  INCLUDES = -I/home/wuster/projects/python/TinyML_Labs/gd32_test/src -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include -I/home/wuster/projects/python/TinyML_Labs/gd32_test/../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers
   OBJECT_DIR = CMakeFiles/firmware.dir
   OBJECT_FILE_DIR = CMakeFiles/firmware.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/firmware.dir/
@@ -250,7 +250,7 @@ build CMakeFiles/firmware.dir/src/subrout.S.obj: ASM_COMPILER__firmware_unscanne
 #############################################
 # Link the executable firmware
 
-build firmware: CXX_EXECUTABLE_LINKER__firmware_ CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj CMakeFiles/firmware.dir/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c.obj CMakeFiles/firmware.dir/src/main.cpp.obj CMakeFiles/firmware.dir/src/Led.cpp.obj CMakeFiles/firmware.dir/src/Point.cpp.obj CMakeFiles/firmware.dir/src/pwm.c.obj CMakeFiles/firmware.dir/src/lcd.c.obj CMakeFiles/firmware.dir/src/systick.c.obj CMakeFiles/firmware.dir/src/subrout.S.obj
+build firmware: CXX_EXECUTABLE_LINKER__firmware_ CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/entry.S.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/start.S.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/init.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/env_Eclipse/handlers.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/RISCV/drivers/n200_func.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/system_gd32vf103.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_rcu.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_timer.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c.obj CMakeFiles/firmware.dir/home/wuster/projects/python/TinyML_Labs/vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c.obj CMakeFiles/firmware.dir/src/main.cpp.obj CMakeFiles/firmware.dir/src/Led.cpp.obj CMakeFiles/firmware.dir/src/Point.cpp.obj CMakeFiles/firmware.dir/src/pwm.c.obj CMakeFiles/firmware.dir/src/lcd.c.obj CMakeFiles/firmware.dir/src/systick.c.obj CMakeFiles/firmware.dir/src/subrout.S.obj
   LINK_FLAGS = -march=rv32imac_zicsr_zifencei -mabi=ilp32 -T/home/wuster/projects/python/TinyML_Labs/gd32_test/linker/GD32VF103x8.lds -Wl,--gc-sections -nostartfiles
   OBJECT_DIR = CMakeFiles/firmware.dir
   POST_BUILD = cd /home/wuster/projects/python/TinyML_Labs/gd32_test/build && /opt/xpack/riscv-none-elf-gcc/bin/riscv-none-elf-objcopy -O binary /home/wuster/projects/python/TinyML_Labs/gd32_test/build/firmware /home/wuster/projects/python/TinyML_Labs/gd32_test/build/firmware.bin && /opt/xpack/riscv-none-elf-gcc/bin/riscv-none-elf-size /home/wuster/projects/python/TinyML_Labs/gd32_test/build/firmware

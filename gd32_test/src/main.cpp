@@ -2,7 +2,7 @@
 extern "C"{
 #include "pwm.h"
 #include "lcd.h"
-#include "../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include/gd32vf103_timer.h"
+#include "../../vendor/GD32VF103_Firmware_Library_V1.7.0/Firmware/GD32VF103_standard_peripheral/Include/gd32vf103_timer.h"
 #include "systick.h"
 #include "subrout.h"
 }
@@ -15,14 +15,6 @@ extern "C"{
 #define LCD_SIZE_X 160
 #define LCD_SIZE_Y 80
 #define DELAY 5000
-
-float map(float x, float x1, float x2, float y1,  float y2)
-{
-  float m = (y2 - y1) / (x2 - x1);
-  float c = y1 - m * x1; // point of interest: c is also equal to y2 - m * x2, though float math might lead to slightly different results.
- 
-  return m * x + c;
-}
 
 int main(){
   //Led led;
@@ -52,7 +44,7 @@ int main(){
       }
 
 
-      points[currentPoint].y = map(sin(x), -1, 1, 0, LCD_SIZE_Y-1);
+      points[currentPoint].y = map(sin(x)*100, -100, 0, 100, LCD_SIZE_Y-1);
       points[currentPoint].x = currentPoint;
 
       points[currentPoint].draw();

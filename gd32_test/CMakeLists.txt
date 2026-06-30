@@ -26,7 +26,7 @@ add_link_options(
   -nostartfiles
 )
 
-set(SDK ${CMAKE_SOURCE_DIR}/vendor/GD32VF103_Firmware_Library_V1.7.0)
+set(SDK ${CMAKE_SOURCE_DIR}/../vendor/GD32VF103_Firmware_Library_V1.7.0)
 
 
 include_directories(

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/cmake_install.cmake",
+		"/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/cmake_install.cmake",
+		"/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

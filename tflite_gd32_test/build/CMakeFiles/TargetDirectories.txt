@@ -1,0 +1,9 @@
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/CMakeFiles/firmware.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/CMakeFiles/flash.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/CMakeFiles/edit_cache.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/CMakeFiles/rebuild_cache.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/CMakeFiles/edit_cache.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/CMakeFiles/rebuild_cache.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/src/CMakeFiles/generic-tflmicro.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/src/CMakeFiles/edit_cache.dir
+/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/src/CMakeFiles/rebuild_cache.dir

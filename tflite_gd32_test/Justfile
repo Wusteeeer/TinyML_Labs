@@ -1,0 +1,9 @@
+build_and_flash:
+  rm -rf build 
+  cmake -B build -G Ninja -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake
+  cmake --build build --target flash 
+
+build:
+  rm -rf build
+  cmake -B build -G Ninja -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake 
+  cmake --build build 
