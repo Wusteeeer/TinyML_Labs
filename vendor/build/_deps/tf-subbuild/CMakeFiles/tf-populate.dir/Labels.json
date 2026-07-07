@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/CMakeFiles/tf-populate"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/CMakeFiles/tf-populate.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/CMakeFiles/tf-populate-complete.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-build.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-configure.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-download.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-install.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-patch.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-test.rule"
+		},
+		{
+			"file" : "/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/tf-subbuild/tf-populate-prefix/src/tf-populate-stamp/tf-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tf-populate"
+		],
+		"name" : "tf-populate"
+	}
+}

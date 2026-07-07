@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.20)
 project(GD32CPP LANGUAGES C CXX ASM)
 
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/../vendor/generic-tflmicro tflmicro-test)
+add_subdirectory(${CMAKE_SOURCE_DIR}/../vendor/tflm-tree tflm)
 
 
 set(MCU_FLAGS
@@ -20,11 +20,14 @@ add_compile_options(
   -Wextra
   -ffunction-sections
   -fdata-sections
+  -fno-exceptions
+  -fno-rtti
+  -fno-use-cxa-atexit
 )
 
 add_link_options(
   ${MCU_FLAGS}
-  -T${CMAKE_SOURCE_DIR}/linker/GD32VF103x8.lds
+  -T${CMAKE_SOURCE_DIR}/linker/GD32VF103xB.lds
   -Wl,--gc-sections
   -nostartfiles
 )
@@ -68,6 +71,9 @@ add_executable(firmware
   src/main.cpp 
   src/Point.cpp
   src/main_functions.cpp
+  src/sine_model_data.cpp
+  src/output_handler.cpp
+  src/constants.cpp
   
   src/lcd.c
   src/systick.c
@@ -78,7 +84,7 @@ target_compile_definitions(firmware PRIVATE
   GD32VF103
 )
 
-target_link_libraries(firmware PRIVATE "generic-tflmicro")
+target_link_libraries(firmware PRIVATE tflm)
 
 set(CMAKE_OBJCOPY "/opt/xpack/riscv-none-elf-gcc/bin/riscv-none-elf-objcopy")
 set(CMAKE_SIZE "/opt/xpack/riscv-none-elf-gcc/bin/riscv-none-elf-size")

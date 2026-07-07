@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/wuster/projects/python/TinyML_Labs/vendor/build/_deps/kissfft-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflmicro-test/cmake_install.cmake")
+  include("/home/wuster/projects/python/TinyML_Labs/tflite_gd32_test/build/tflm/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
